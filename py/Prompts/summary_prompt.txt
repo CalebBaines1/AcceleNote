@@ -4,7 +4,7 @@ Title: {Title}
 Summary: {Summary}
 
 An example is:
-Input Text: "Hi, my name is Joe and I am a farmer in Minnesota. I have two cows, three chickens, and a few geese.  I like waking up early and tending to my cattle.
+Input Text: "Hi, my name is Joe and I am a farmer in Minnesota. I have two cows, three chickens, and a few geese.  I like waking up early and tending to my cattle."
 
 Output:
 
