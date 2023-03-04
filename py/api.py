@@ -22,6 +22,9 @@ class Text_Recognition(Resource):
     def img_process(self, img):
         return pytesseract.image_to_string(img, lang='eng')
     
+    def text_process(self, text):
+        
+        pass
 
 # api.com/text_recognition
 api.add_resource(Text_Recognition, '/text_recognition')

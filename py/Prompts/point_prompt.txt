@@ -1,0 +1,39 @@
+Given an input text, summarize it in the following format:
+
+Title: {Title}
+Important Points:
+-{Point 1}: {Point 1 details}
+-{Point 2}: {Point 2 details}
+-{Point 3}: {Point 3 details}
+
+An example is:
+Input Text: "Main idea is to have a light tattoo on your skin via light projection or a display on your skin
+After talking to more people I am leaning towards the display option because of size constraints based on the smallest commercial projectors and implementation issues in bright areas
+The display option would be done using a flexible or transparent OLED display and be affixed to a persons arm or other body part and show images on their skin
+Can be done with multiple smaller displays combined into an array( likely option) or a single large display ( have not found any of these yet
+Will likely need to simulate the skin color if we want it to appear transparent as most “transparent” displays are not truly transparent
+For the parts besides the actual display:
+			Need:
+Driver/breakout board
+Has a port for the oled display wires and splits it into different pins
+Arduino:
+Used to actually program the display
+Power Source:
+For either the arduino or the river board to power the display
+			Want:
+Light Sensor(s):
+Can be used to decrease or increase brightness of the display based on where you are at so it isn’t too bright in a dark room and and isn’t too dim in sunlight. (Can also have a buttons or other input methods to adjust brightness instead)
+Custom PCB:
+Allows us to have a single board that has the port for the oled cable as well as the processor and memory along with a port to microUSB or something else to flash it
+Multiple displays:
+Can be connected together to display a larger image
+"
+
+Output:
+
+Title:  Display Project Notes
+-What is it: Electronic "Tattoo" created using OLED Display. May have multiple features including brightness adjustment, skin color simulation, and transparency.
+-Needs to have: For the project, the Tattoo needs to have driver/breakout board, display port for OLED, arduino board, and power source.
+-Want to have: Nice to haves for Tattoo include a light sensor, custom PCB, and multiple displays.
+
+Now, respond with output for the following input text:

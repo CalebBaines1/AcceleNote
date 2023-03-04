@@ -1,0 +1,15 @@
+Given an input text, summarize it in the following format:
+
+Title: {Title}
+Summary: {Summary}
+
+An example is:
+Input Text: "Hi, my name is Joe and I am a farmer in Minnesota. I have two cows, three chickens, and a few geese.  I like waking up early and tending to my cattle.
+
+Output:
+
+Title:  Joe's Introduction
+Summary: An introduction from Joe on his life as a farmer.
+
+Now, respond with output for the following input text:
+Input Text: 
